@@ -5,7 +5,7 @@ from 网页滚动 import *
 
 
 def sugar(name = '雷姆',file='rem'):
-    file_name = 'C:\\Users\\Joker Wang'+('\\'+file)
+    file_name = 'C:\\Users\\Joker Wang\\Desktop'+('\\'+file)
     os.mkdir(file_name)
     os.chdir(file_name)
     keyword = urllib.parse.quote(name)
