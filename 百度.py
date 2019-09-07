@@ -34,7 +34,7 @@ def translate(html):
     return llrt
 
 def search(name='雷姆',file='rem'):
-    a = 'C:\\Users\\Joker Wang'+('\\'+file)
+    a = 'C:\\Users\\Joker Wang\\Desktop'+('\\'+file)
     os.mkdir(a)
     os.chdir(a)
     keyword = name
