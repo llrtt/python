@@ -6,7 +6,7 @@ from 堆糖 import sugar
 
 root = Tk()
 
-Label(root,text='请输入要寻找的角色或动漫名:').grid(row=0,column=0)
+Label(root,text='请输入要寻找的关键词:').grid(row=0,column=0)
 Label(root,text='请输入要想要在桌面创建的文件名:').grid(row=1,column=0)
 
 v1 = StringVar()
